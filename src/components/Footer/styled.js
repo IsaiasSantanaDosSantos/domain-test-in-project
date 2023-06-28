@@ -4,7 +4,7 @@ import * as colors from '../../config/colors';
 
 export const FooterContainer = styled.div`
 width: 100%;
-padding: 40px 20px;
+padding: 50px 20px;
 color: ${colors.whiteColor};
 background-color: ${colors.primaryColor};
 display: flex;

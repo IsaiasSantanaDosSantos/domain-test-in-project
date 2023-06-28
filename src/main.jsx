@@ -35,7 +35,8 @@ function Main() {
 i18n.use(initReactI18next).init({
   lng: 'en',
   fallbackLng: 'en',
-  debug: true,
+  initImmediate: false,
+  debug: false,
   resources: {
     en: {
       translation: enTranslations

@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
 
 import { FooterContainer } from './styled';
-import logo from '../../assets/img/black_santana_logo.jpg'
+import logo from '../../assets/img/santanadarkLogo-img.png'
 
 export const Footer = () => {
     const { t } = useTranslation()

@@ -83,7 +83,7 @@ export const Contact = () => {
     return(
         <ContactContent id='contact'>
             <div className="contactConatiner">
-                <div className="contactTextBox">
+                <div className="contactTextBox" id='contact-2'>
                     <p className="contactTextTitle fade-up">{t ('contact_text_title')}</p>
                     <p className="contactText fade-up">{t ('contact_text_text')}</p>
                     <p className="contactText contactSubTitle fade-up"><b>{t ('contact_text_subtitle')}</b></p>
@@ -91,23 +91,23 @@ export const Contact = () => {
                     <p className="contactText contactSubTitle fade-up"><b>{t ('contact_text_call')}</b></p>
                     <p className="contactText fade-up"><a href="tel:5512974011729" target="_blank" rel="noopener noreferrer">(+55) 12 97401-1729 </a></p>
                     <div className="contactIconsBox fade-up">
-                        <a href="mailto:isaiassantanadossantos@hotmail.com" className="iconsLink"
+                      <a href="https://www.linkedin.com/in/isaiassantanadossantos/" className="iconsLink" target="_blank" rel="noopener noreferrer"><FaLinkedin  className="contactIcons"/></a>
+
+                      <a href="https://github.com/IsaiasSantanaDosSantos" className="iconsLink" target="_blank" rel="noopener noreferrer"><FaGithub  className="contactIcons"/></a>
+
+                      <a href="https://web.facebook.com/leila.santana.35" className="iconsLink" target="_blank" rel="noopener noreferrer"><FaFacebook  className="contactIcons"/></a>
+
+                      <a href="mailto:isaiassantanadossantos@hotmail.com" className="iconsLink"
                          target="_blank" rel="noopener noreferrer" ><FaEnvelope  className="contactIcons"/></a>
 
-                        <a href="https://api.whatsapp.com/send?phone=5512974011729" className="iconsLink"><FaWhatsapp  className="contactIcons"/></a>
-
-                        <a href="https://www.linkedin.com/in/isaiassantanadossantos/" className="iconsLink" target="_blank" rel="noopener noreferrer"><FaLinkedin  className="contactIcons"/></a>
-
-                        <a href="https://github.com/IsaiasSantanaDosSantos" className="iconsLink" target="_blank" rel="noopener noreferrer"><FaGithub  className="contactIcons"/></a>
-
-                        <a href="https://web.facebook.com/leila.santana.35" className="iconsLink" target="_blank" rel="noopener noreferrer"><FaFacebook  className="contactIcons"/></a>
+                      <a href="https://api.whatsapp.com/send?phone=5512974011729" className="iconsLink"><FaWhatsapp  className="contactIcons"/></a>
                     </div>
                 </div>
                 <div className="contactFormBox">
                     <p className="contactTextTitle fade-up">{t ('contact_form_title')} </p>
-                    <form action="https://formsubmit.co/isaiassantanadossantos@hotmail.com"  id='my-form' className='fade-up' onSubmit={handleVerification}>
+                    <form action="https://formsubmit.co/isaiaskurtsantos@gmail.com"  id='my-form' className='fade-up' onSubmit={handleVerification}>
                         <input type="hidden" name="_next" value="" />
-                        <input type='hidden' name='_cc' value="isaiaskurtsantos@gmail.com" />
+                        <input type='hidden' name='_cc' value="isaiassantanadossantos@hotmail.com" />
                         <input type='hidden' name='_captcha' value="false" />
                         <input type='hidden' name='_autoresponse' value="Thank you for your email, we will reply as soon as possible." />
                         <label htmlFor="name">{t ('contact_form_label_name')} <input type="text" name='name' value={name} onChange={(e) => setName(e.target.value)}/></label>

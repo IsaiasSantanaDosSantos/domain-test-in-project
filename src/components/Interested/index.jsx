@@ -7,19 +7,6 @@ import backgraund from '../../../public/img/hire-me_image.jpg'
 
 export const Interested = () => {
     const { t } = useTranslation()
-  
-    // const [scrollPosition, setScrollPosition] = useState(0);
-
-    // useEffect(() => {
-    //     const handleScroll = () => {
-    //       setScrollPosition(window.scrollY);
-    //     };
-    
-    //     window.addEventListener('scroll', handleScroll);
-    //     return () => {
-    //       window.removeEventListener('scroll', handleScroll);
-    //     };
-    //   }, []);
     
     useEffect(() => {
         const handleScroll = () => {
@@ -51,13 +38,12 @@ export const Interested = () => {
               className="backgroundImage"
               style={{ backgroundImage: `url(${backgraund})`}}
             />
-            {/* , transform: `translateY(${scrollPosition * 0.5}px)` */}
             <div className="backgroundMask"></div>
             <div className="interestedContent">
                 <h3 className="interestedTitle fade-up">{t ('interested_title')}</h3>
                 <Link 
                     className="interestedLink fade-up"
-                    to="contact"
+                    to="contact-2"
                     spy={true}
                     smooth="easeInOutQuint"
                     offset={-80}

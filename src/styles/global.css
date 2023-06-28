@@ -1,5 +1,7 @@
 :root {
   --whiteColor: #ffffff;
+  --primaryColor:#F5DF4E;
+  --secundaryColor: #000;
   --defaultFont: 'Poppins', sans-serif;
 }
 
@@ -12,5 +14,8 @@
 body {
   font-family: var(--defaultFont);
   background-color: var(--whiteColor);
-  /* position: relative; */
+}
+::selection {
+  background-color: var(--primaryColor);
+ color: var(--secundaryColor);
 }

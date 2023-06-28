@@ -45,7 +45,7 @@ export const MenuList = (props) => {
                     to="about"
                     spy={true}
                     smooth="easeInOutQuint"
-                    offset={-71}
+                    offset={-70}
                     duration={800}
                     onSetActive={handleSetActive}
                     onClick={(e)=> {e.preventDefault(); setActiveLink(true);  {screenSize < 992 && closeMenu()}}}
@@ -59,7 +59,7 @@ export const MenuList = (props) => {
                     to="services"
                     spy={true}
                     smooth="easeInOutQuint"
-                    offset={-71}
+                    offset={-61}
                     duration={800}
                     onSetActive={handleSetActive}
                     onClick={(e)=> {e.preventDefault(); setActiveLink(true);  {screenSize < 992 && closeMenu()}}}
@@ -73,7 +73,7 @@ export const MenuList = (props) => {
                     to="resume"
                     spy={true}
                     smooth="easeInOutQuint"
-                    offset={-71}
+                    offset={-60}
                     duration={800}
                     onSetActive={handleSetActive}
                     onClick={(e)=> {e.preventDefault(); setActiveLink(true); {screenSize < 992 && closeMenu()}}}
@@ -86,7 +86,7 @@ export const MenuList = (props) => {
                     to="portfolio"
                     spy={true}
                     smooth="easeInOutQuint"
-                    offset={-71}
+                    offset={-60}
                     duration={500}
                     onSetActive={handleSetActive}
                     onClick={(e)=> {e.preventDefault(); setActiveLink(true); {screenSize < 992 && closeMenu()}}}
@@ -99,7 +99,7 @@ export const MenuList = (props) => {
                     to="references"
                     spy={true}
                     smooth="easeInOutQuint"
-                    offset={-71}
+                    offset={-50}
                     duration={800}
                     onSetActive={handleSetActive}
                     onClick={(e)=> {e.preventDefault(); setActiveLink(true); {screenSize < 992 && closeMenu()}}}
@@ -112,7 +112,7 @@ export const MenuList = (props) => {
                     to="contact"
                     spy={true}
                     smooth="easeInOutQuint"
-                    offset={-71}
+                    offset={-50}
                     duration={800}
                     onSetActive={handleSetActive}
                     onClick={(e)=> {e.preventDefault(); setActiveLink(true); {screenSize < 992 && closeMenu()}}}

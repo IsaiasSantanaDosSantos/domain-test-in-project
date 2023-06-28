@@ -8,7 +8,7 @@ display: block;
 text-align: center;
 background-color: ${colors.secundaryColor};
 color: ${colors.primaryColor};
-padding: 80px 0;
+padding: 95px 0;
 
 .contactConatiner{
     max-width: 1100px;
@@ -113,7 +113,7 @@ button {
     align-items: center;
     padding: 10px 40px;
     column-gap: 5px;
-    margin: 30px auto 5px;
+    margin: 30px 0 auto 5px;
     cursor: pointer;
     transition: all 0.5s;
 }
@@ -157,6 +157,9 @@ button:active {
     }
     .contactIconsBox {
         justify-content: center;
+    }
+    button {
+        margin: 30px auto 5px;
     }
 }
 `;
