@@ -95,9 +95,9 @@ export const Contact = () => {
 
                       <a href="https://github.com/IsaiasSantanaDosSantos" className="iconsLink" target="_blank" rel="noopener noreferrer"><FaGithub  className="contactIcons"/></a>
 
-                      <a href="https://web.facebook.com/leila.santana.35" className="iconsLink" target="_blank" rel="noopener noreferrer"><FaFacebook  className="contactIcons"/></a>
+                      <a href="https://www.facebook.com/santanawebdeveloper" className="iconsLink" target="_blank" rel="noopener noreferrer"><FaFacebook  className="contactIcons"/></a>
 
-                      <a href="mailto:isaiassantanadossantos@hotmail.com" className="iconsLink"
+                      <a href="mailto:isaiaskurtsantos@gmail.com" className="iconsLink"
                          target="_blank" rel="noopener noreferrer" ><FaEnvelope  className="contactIcons"/></a>
 
                       <a href="https://api.whatsapp.com/send?phone=5512974011729" className="iconsLink"><FaWhatsapp  className="contactIcons"/></a>
