@@ -1,0 +1,1 @@
+:root{--whiteColor: #ffffff;--primaryColor:#F5DF4E;--secundaryColor: #000;--defaultFont: "Poppins", sans-serif}*{margin:0;padding:0;box-sizing:border-box}body{font-family:var(--defaultFont);background-color:var(--whiteColor)}::selection{background-color:var(--primaryColor);color:var(--secundaryColor)}
