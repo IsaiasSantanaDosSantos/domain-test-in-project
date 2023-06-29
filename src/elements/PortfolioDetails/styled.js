@@ -12,7 +12,8 @@ z-index: 10;
 background-color: ${colors.transpDarkColor};
 display: flex;
 justify-content: center;
-align-items: center;
+align-items: start;
+padding-top: 10px;
     .windowDetailsCard {
         width: 90%;
         height: auto;
@@ -21,7 +22,7 @@ align-items: center;
         justify-content: center;
         align-items: center;
         background-color: ${colors.whiteColor};
-        padding: 20px;
+        padding: 5px 20px 20px;
     }
     .closedWindow {
         width: 100%;
@@ -48,7 +49,8 @@ align-items: center;
     }
     .imageBox{
         position: relative;
-        width: 58%;
+        max-width: 650px;
+        width: 100%;
         height: 350px;
     }
     .backgroundImage {
@@ -71,7 +73,7 @@ align-items: center;
     }
     .windowTitle {
         font-weight: 600;
-        margin-bottom: 15px;
+        margin-bottom: 10px;
         text-transform: uppercase;
         border-bottom: 2px solid ${colors.secundaryColor};
     }
@@ -82,9 +84,9 @@ align-items: center;
         align-items: start;
     }
     .descriptionText {
-        font-size: 15px;
+        font-size: 14px;
         margin-bottom: 10px;
-        line-height: 25px;
+        line-height: 17px;
     }
     .windowBtnBox {
         width: 100%;
@@ -110,15 +112,13 @@ align-items: center;
     }
 
     @media (max-width: 992px){
-        padding-top: 20px;
-
         .windowCartContent {
             flex-direction: column;
         }
         .imageBox {
             max-width: 650px;
             width: 95%;
-            margin-bottom: 20px;
+            margin-bottom: 10px;
         }
         .windowInfo {
             max-width: 650px;
