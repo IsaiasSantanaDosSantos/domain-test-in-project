@@ -87,6 +87,15 @@ align-items: center;
     .experience-text span {
         font-weight: 700;
     }
+    .myPhoto {
+        max-width: 250px;
+        width: 100%;
+        border-radius: 50%;
+        border: 2px solid ${colors.primaryColor};
+        margin-top: 15px;
+        padding: 5px;
+        background-color: ${colors.secundaryColor};
+    }
     .about-contact {
         width: 100%;
         display: flex;
@@ -167,6 +176,9 @@ align-items: center;
         .about-contact p {
             width: 50%;
         }
+        .about-experience {
+            width: 60%;
+        }
     }
     @media (max-width: 768px){
         .about-contact {
@@ -181,8 +193,8 @@ align-items: center;
     }
     @media (max-width: 576px){
         .experience-number {
-            font-size: 90px;
-            line-height: 108px;
+            font-size: 120px;
+            line-height:144px;
         }
         .experience-text {
         font-size: 25px;
@@ -191,6 +203,9 @@ align-items: center;
         }
         .about-contact p span{
             font-size: 15px;
+        }
+        .about-experience {
+            width: 100%;
         }
     }
 `;

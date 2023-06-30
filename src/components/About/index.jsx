@@ -3,6 +3,7 @@ import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 
 import { AboutContent }from './styled';
+import IsaiasPhoto from '../../../public/img/isaias-black_t-shirt.jpg'
 
 export const About = () => {
     const { t } = useTranslation()
@@ -56,6 +57,7 @@ export const About = () => {
                     <div className="about-experience fade-up">
                         <p className="experience-number"><span className="zoom">20</span><span className="experience-circle"></span></p>
                         <p className="experience-text">{t ('years-of')} <span> {t ('experiance')}</span></p>
+                        <img src={IsaiasPhoto} alt="Isaias' photo" className='myPhoto' />
                     </div>
                 </div>
                 <div className="about-contact fade-up">
