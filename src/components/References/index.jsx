@@ -15,7 +15,7 @@ export const References = () => {
           sliderRef.current.slickNext();
         }
       }, 10000);
-  
+      
       const handleScroll = () => {
         const elements = document.querySelectorAll('.fade-up');
         const windowHeight = window.innerHeight;
@@ -44,7 +44,8 @@ export const References = () => {
         speed: 1000,
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay: false,
+        autoplay: true,
+        autoplaySpeed: 8000,
         responsive: [
           {
             breakpoint: 768,
@@ -61,15 +62,12 @@ export const References = () => {
         ],
       };
 
-      
- 
-
     return(
         <ReferencesContent id='references'>
             <h1 className=''>{t ('recommendations')}</h1>
                 <p className="subTitle fade-up">{t ('recomendations_title')}</p>
                
-                  <Slider {...settings} ref={sliderRef} className='fade-up'>
+                  <Slider {...settings} ref={sliderRef} className='fade-up' >
                   <SlideItem
                     name={t ('fourth_recom_name')}
                     position={t ('fourth_recom_position')}

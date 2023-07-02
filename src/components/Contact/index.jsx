@@ -97,7 +97,7 @@ export const Contact = () => {
 
                       <a href="https://www.facebook.com/santanawebdeveloper" className="iconsLink" target="_blank" rel="noopener noreferrer"><FaFacebook  className="contactIcons"/></a>
 
-                      <a href="mailto:isaiaskurtsantos@gmail.com" className="iconsLink"
+                      <a href="mailto:santanawebdev@gmail.com" className="iconsLink"
                          target="_blank" rel="noopener noreferrer" ><FaEnvelope  className="contactIcons"/></a>
 
                       <a href="https://api.whatsapp.com/send?phone=5512974011729" className="iconsLink"><FaWhatsapp  className="contactIcons"/></a>
@@ -105,7 +105,7 @@ export const Contact = () => {
                 </div>
                 <div className="contactFormBox">
                     <p className="contactTextTitle fade-up">{t ('contact_form_title')} </p>
-                    <form action="https://formsubmit.co/isaiaskurtsantos@gmail.com"  id='my-form' className='fade-up' onSubmit={handleVerification}>
+                    <form action="https://formsubmit.co/santanawebdev@gmail.com"  id='my-form' className='fade-up' onSubmit={handleVerification}>
                         <input type="hidden" name="_next" value="" />
                         <input type='hidden' name='_cc' value="isaiassantanadossantos@hotmail.com" />
                         <input type='hidden' name='_captcha' value="false" />

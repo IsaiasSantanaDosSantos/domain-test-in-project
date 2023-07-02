@@ -62,7 +62,7 @@ export const About = () => {
                 </div>
                 <div className="about-contact fade-up">
                     <p>{t ('name')}: <br /><span className="contact-info">Isaias Santana dos Santos</span></p>
-                    <p>{t ('email')}: <br /><span className="contact-info"><a href="malito:isaiassantanadossantos@hotmail.com">isaiassantanadossantos@hotmail.com</a> </span></p>
+                    <p>{t ('email')}: <br /><span className="contact-info"><a href="malito:santanawebdev@gmail.com">santanawebdev@gmail.com</a> </span></p>
                     <p>{t ('date birth text')}: <br /><span className="contact-info">{t ('date birth')}</span></p>
                     <p>{t ('from')}: <br /><span className="contact-info"><a className='loacation' href="https://goo.gl/maps/9HeL7UpRSsWs5FU38">São José dos Campos, SP, BR</a> </span></p>
                 </div>

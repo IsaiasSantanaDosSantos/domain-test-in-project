@@ -77,6 +77,8 @@ a:hover {
 }
 form {
     width: 100%;
+    display: block;
+    text-align: start;
 }
 
 label {
@@ -113,7 +115,7 @@ button {
     align-items: center;
     padding: 10px 40px;
     column-gap: 5px;
-    margin: 30px 0 auto 5px;
+    margin: 30px auto 10px 0px;
     cursor: pointer;
     transition: all 0.5s;
 }
@@ -126,9 +128,10 @@ button:active {
     filter: brightness(75%);
 }
 .errorMsg {
-    text-align: center;
+    margin-top: 10px;
     font-size: 13px;
     font-weight: 600;
+    color: ${colors.errorColor};
 }
 .fade-up {
     transform: translateY(100px);
@@ -149,6 +152,9 @@ button:active {
     }
 }
 @media (max-width: 576px){
+    form {
+    text-align: center;
+}
     .contactTextBox, .contactFormBox, label {
         align-items: center;
     }

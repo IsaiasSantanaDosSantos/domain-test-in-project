@@ -11,9 +11,5 @@ This is my prortfolio project.
 *flag-icon-css;  
 *react-i18next;  
 *react-responsive-carousel;  
-*react-slick;
-
-
-REmover↓:
-*nodemailer.
-*react-gif-player.
+*react-slick;  
+*react-gif-player;

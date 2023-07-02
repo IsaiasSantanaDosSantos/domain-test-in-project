@@ -25,7 +25,8 @@ export const PortfolioDetails = ({ project, index, setShowDetails }) =>{
                         </div>
                         <div className="windowBtnBox">
                             <a href={project.portfolio_link} target="_blank" rel="noopener noreferrer" className="pageProjectLink">See project</a>
-                            <a href={project.github_project} target="_blank" rel="noopener noreferrer" className="gitHubProjectLink">See GitHub </a>
+                            {project.github_project && <a href={project.github_project} target="_blank" rel="noopener noreferrer" className="gitHubProjectLink">See GitHub </a>}
+                            
                         </div>
                     </div>
                 </div>

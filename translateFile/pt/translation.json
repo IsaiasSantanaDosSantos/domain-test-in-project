@@ -98,7 +98,7 @@
     
     "recommendations": "Referências",
     "recomendations_title": "Algumas referências",
-    "recom_source": "Fonte: LinkedIn",
+    "recom_source": "Veja no LinkedIn",
     "first_recom_name": "Abraão Vasconcelos",
     "first_recom_position": "Desenvolvedor Back-end .NET",
     "first_recom_decription": "Isaias é altamente recomendado como um talentoso desenvolvedor front-end. Ele se destaca por sua capacidade técnica e dedicação ao campo. Sua proficiência em HTML, CSS e JavaScript é impressionante e ele acompanha as últimas tendências e práticas recomendadas. Transformar designs em interfaces envolventes é uma de suas habilidades notáveis. Além disso, Isaias é um companheiro de equipe colaborativo e comunicativo, sempre disposto a ajudar e contribuir para o sucesso dos projetos em que está envolvido.",
@@ -119,7 +119,7 @@
     "contact_text_title": "Vamos entrar em contato",
     "contact_text_text": "Gosto de discutir novos projetos e desafios de design. Por favor, compartilhe o máximo de informações possível para que possamos tirar o máximo proveito de nosso primeiro contato.",
     "contact_text_subtitle": "Vivendo em:",
-    "contact_text_address": "Rua Hamailton de Freitas, 1107, São José dos Campos, BR.",
+    "contact_text_address": "Distrito Eugênio de Melo, São José dos Campos, BR.",
     "contact_text_call": "Chamar",
     "contact_form_error_name": "Por favor, preencha seu nome.",
     "contact_form_error_email": "Por favor, preencha seu e-mail.",

@@ -15,6 +15,7 @@ justify-content: center;
 align-items: start;
 padding-top: 10px;
     .windowDetailsCard {
+        max-width: 1100px;
         width: 90%;
         height: auto;
         display: flex;
@@ -62,7 +63,11 @@ padding-top: 10px;
         top: 0;
         left: 0;
         z-index: 0;
-        
+        box-shadow: 0 0 41px -16px;
+        transition: all 0.5s;
+    }
+    .backgroundImage:hover {
+        transform: scale(1.02);
     }
     .windowInfo {
         width: 38%;
@@ -86,14 +91,15 @@ padding-top: 10px;
     .descriptionText {
         font-size: 14px;
         margin-bottom: 10px;
-        line-height: 17px;
+        line-height: 20px;
     }
     .windowBtnBox {
         width: 100%;
         display: flex;
-        justify-content: space-between;
+        justify-content: start;;
         align-items: center;
         margin-top: 20px;
+        column-gap: 20px;
     }
     .windowBtnBox a {
         text-decoration: none;
