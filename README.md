@@ -12,4 +12,5 @@ This is my prortfolio project.
 *react-i18next;  
 *react-responsive-carousel;  
 *react-slick;  
-*react-gif-player;
+*react-gif-player;  
+*react-ga
