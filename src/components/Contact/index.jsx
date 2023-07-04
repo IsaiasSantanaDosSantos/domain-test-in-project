@@ -100,7 +100,7 @@ export const Contact = () => {
                       <a href="mailto:santanawebdev@gmail.com" className="iconsLink"
                          target="_blank" rel="noopener noreferrer" ><FaEnvelope  className="contactIcons"/></a>
 
-                      <a href="https://api.whatsapp.com/send?phone=5512974011729" className="iconsLink"><FaWhatsapp  className="contactIcons"/></a>
+                      <a href="https://api.whatsapp.com/send?phone=551239052080" className="iconsLink"><FaWhatsapp  className="contactIcons"/></a>
                     </div>
                 </div>
                 <div className="contactFormBox">
