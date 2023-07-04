@@ -152,7 +152,7 @@ export const Resume = () => {
                     </div>
 
                     <div className="cvBox fade-up">
-                        <a href="https://drive.google.com/file/d/1oayI_i68bYIDFstXsg3fr2ohxPrXu6Ng/view?usp=share_link" download="curriculo-Isaias" target="_blank" rel="noopener noreferrer" className="downloadResume">{t ('downloadPtResume')}</a>
+                        <a href="https://drive.google.com/file/d/1HTe12NQrRiySvN1xLIbBymMtSR8B56AN/view" download="curriculo-Isaias" target="_blank" rel="noopener noreferrer" className="downloadResume">{t ('downloadPtResume')}</a>
                     </div>
                 </div>
             </ResumeContent>
