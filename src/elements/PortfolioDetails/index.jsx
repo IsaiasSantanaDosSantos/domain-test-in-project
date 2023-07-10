@@ -24,8 +24,8 @@ export const PortfolioDetails = ({ project, index, setShowDetails }) =>{
                             <p className="descriptionText">{ t (`description-project-${index}`)}</p>
                         </div>
                         <div className="windowBtnBox">
-                            <a href={project.portfolio_link} target="_blank" rel="noopener noreferrer" className="pageProjectLink">See project</a>
-                            {project.github_project && <a href={project.github_project} target="_blank" rel="noopener noreferrer" className="gitHubProjectLink">See GitHub </a>}
+                            <a href={project.portfolio_link} target="_blank" rel="noopener noreferrer" className="pageProjectLink">{t ('portfolioLink')}</a>
+                            {project.github_project && <a href={project.github_project} target="_blank" rel="noopener noreferrer" className="gitHubProjectLink">{t ("portfolioGitLink")}</a>}
                             
                         </div>
                     </div>

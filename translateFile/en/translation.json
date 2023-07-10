@@ -79,6 +79,8 @@
     "portfolio": "Portfolio",
     "portfolio-summary": "Some of my most recent projects",
     "portfolio-title-0": "My Portfolio",
+    "portfolioLink": "See project",
+    "portfolioGitLink": "See Repository",
     "description-project-0": "This project reflects my practical experience in design implementation and interactive interactions. I highlight my creativity through web pages with a unique style, ensuring a captivating user experience. This portfolio demonstrates versatility with diverse projects, including websites and web applications. I am eager to share my work and demonstrate how I can contribute to the success of your project! Frameworks used: Vite.js and React.js. Libraries used: React-Router-Dom, React-scroll, Styled-Components, flag-icon-css, react-i18next.",
     "portfolio-title-1": "API Rest",
     "description-project-1":"This REST API was developed using a combination of cutting-edge technologies and tools, such as Docker, Nginx, and PM2. React.js served as the foundation for development, providing a robust and flexible API. GitHub was used for efficient source code control, ensuring integrity. Hosting was done on AWS, ensuring scalability and reliability. This combination enabled the creation of a highly performant, scalable, and reliable REST API to meet the application's needs.",
