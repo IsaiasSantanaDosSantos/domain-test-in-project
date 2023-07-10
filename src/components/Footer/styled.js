@@ -8,8 +8,11 @@ padding: 50px 20px;
 color: ${colors.whiteColor};
 background-color: ${colors.primaryColor};
 display: flex;
+flex-direction: column;
 justify-content: center;
 align-items: center;
+row-gap: 20px;
+white-space: nowrap;
 .container {
     max-width: 1100px;
     width: 90%;
@@ -31,6 +34,19 @@ span {
 }
 p {
     font-size: 16px;
+}
+.JesusPhrase {
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+    width: auto;
+    .JesusName {
+        color: ${colors.secundaryColor};
+        font-weight: 700;
+        font-size: 14px;
+    }
 }
 @media (max-width: 1300px){
     span{
