@@ -148,7 +148,7 @@ export const Resume = () => {
                 </div>
                 <div className="downloadBtnBox">
                     <div className="cvBox fade-up">
-                        <a href="https://drive.google.com/file/d/1viTsJS6Ls5pSv2UkPGVR-gi6K3meQsSS/view?usp=share_link" download="Isaias-resume" target="_blank" rel="noopener noreferrer" className="downloadResume">{t ('downloadEnResume')}</a>
+                        <a href="https://drive.google.com/file/d/1-aanX4qUNd58xB2TzSI4MaGD4u3IKQZi/view" download="Isaias-resume" target="_blank" rel="noopener noreferrer" className="downloadResume">{t ('downloadEnResume')}</a>
                     </div>
 
                     <div className="cvBox fade-up">
