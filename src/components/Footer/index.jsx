@@ -15,7 +15,7 @@ export const Footer = () => {
                     <p>{t('all_rights_reserved')}</p>
                 </span>
             </div>
-            <p className="JesusPhrase"><strong className="JesusName">Jesus </strong> {t ('JesusPhrase')}</p>
+            {/* <p className="JesusPhrase"><strong className="JesusName">Jesus </strong> {t ('JesusPhrase')}</p> */}
         </FooterContainer>
     );
 };
