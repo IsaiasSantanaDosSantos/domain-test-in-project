@@ -73,28 +73,28 @@ export const References = () => {
                     position={t ('fourth_recom_position')}
                     description={t ('fourth_recom_decription')}
                     source={t ('recom_source')}
-                    photo={t ('fourth_recom_photo')}
+                    photo="public/img/references/Kim_Frana.jpg"
                     />
                     <SlideItem
                     name={t ('first_recom_name')}
                     position={t ('first_recom_position')}
                     description={t ('first_recom_decription')}
-                    source={t ('recom_source')}
-                    photo={t ('first_recom_photo')}
+                    source={t ('recom_source')}n
+                    photo="public/img/references/Abraao_Vasconcelo.jpg"
                     />
                     <SlideItem
                     name={t ('secund_recom_name')}
                     position={t ('secund_recom_position')}
                     description={t ('secund_recom_decription')}
                     source={t ('recom_source')}
-                    photo={t ('secund_recom_photo')}
+                    photo="public/img/references/Fabio_Francisco.jpg"
                     />
                     <SlideItem
                     name={t ('third_recom_name')}
                     position={t ('third_recom_position')}
                     description={t ('third_recom_decription')}
                     source={t ('recom_source')}
-                    photo={t ('third_recom_photo')}
+                    photo="public/img/references/Leila_Santana.jpg"
                     />
                   </Slider>
         </ReferencesContent>
