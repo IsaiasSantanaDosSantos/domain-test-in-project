@@ -1,7 +1,0 @@
-PARA HOSPEDAR UM PROJETO NO GITHUB PAGES SEGUIR OS SEGUINTES PASSOS:
-    1. Instalar "gh-pages" como dependência com o seguinte cógido: "npm i gh-pages ---save-dev";
-    2. No arquivo "package.json" acrescentar junto aos scripts o seguinte: '"predeploy": "npm run build", "deploy": "gh-pages -d dist"', ainda neste arquivo, acrescentar também a URL do projeto junto as primeiras linhas com o seguinte padrão: '"homepage": "https://<nome_de_usuario>.github.io/<nome_do_projeto_no_gitHub>"';
-    3. No arquivo "vite.config.js", acrescentar o parâmentro '"base:"/"';
-    4. Rodar o script criado que é o "npm run deploy";
-    5. Após receber a mensagem "Published", significa que foi publicado com sucesso;
-    6. Ir para o repositório remoto no GitHub, acessar as configurações do repositório na sequencia: Settings> Pages>, ao acessar esta configuração, caso não tenha mostrado o link do projeto, basta aguardar ou recarregar a página.
