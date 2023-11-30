@@ -91,16 +91,16 @@ export const Contact = () => {
                     <p className="contactText contactSubTitle fade-up"><b>{t ('contact_text_call')}</b></p>
                     <p className="contactText fade-up"><a href="tel:5512974011729" target="_blank" rel="noopener noreferrer">(+55) 12 97401-1729 </a></p>
                     <div className="contactIconsBox fade-up">
-                      <a href="https://www.linkedin.com/in/isaiassantanadossantos/" className="iconsLink" target="_blank" rel="noopener noreferrer"><FaLinkedin  className="contactIcons"/></a>
+                      <a href="https://www.linkedin.com/in/isaiassantanadossantos/" className="iconsLink" target="_blank" rel="noopener noreferrer" aria-label='Linkedin'><FaLinkedin  className="contactIcons"/><span>Linkedin</span></a>
 
-                      <a href="https://github.com/IsaiasSantanaDosSantos" className="iconsLink" target="_blank" rel="noopener noreferrer"><FaGithub  className="contactIcons"/></a>
+                      <a href="https://github.com/IsaiasSantanaDosSantos" className="iconsLink" target="_blank" rel="noopener noreferrer" aria-label='GitHub'><FaGithub  className="contactIcons"/><span>GitHub</span></a>
 
-                      <a href="https://www.facebook.com/santanawebdeveloper" className="iconsLink" target="_blank" rel="noopener noreferrer"><FaFacebook  className="contactIcons"/></a>
+                      <a href="https://www.facebook.com/santanawebdeveloper" className="iconsLink" target="_blank" rel="noopener noreferrer" aria-label='Facebook'><FaFacebook  className="contactIcons"/><span>Facebook</span></a>
 
                       <a href="mailto:santanawebdev@gmail.com" className="iconsLink"
-                         target="_blank" rel="noopener noreferrer" ><FaEnvelope  className="contactIcons"/></a>
+                         target="_blank" rel="noopener noreferrer" ><FaEnvelope  className="contactIcons" aria-label='Email'/><span>E-mail</span></a>
 
-                      <a href="https://api.whatsapp.com/send?phone=551239052080" className="iconsLink"><FaWhatsapp  className="contactIcons"/></a>
+                      <a href="https://api.whatsapp.com/send?phone=5512974011729" className="iconsLink" aria-label='WhatsApp'><FaWhatsapp  className="contactIcons"/><span>WhatsApp</span></a>
                     </div>
                 </div>
                 <div className="contactFormBox">
@@ -110,9 +110,9 @@ export const Contact = () => {
                         <input type='hidden' name='_cc' value="isaiassantanadossantos@hotmail.com" />
                         <input type='hidden' name='_captcha' value="false" />
                         <input type='hidden' name='_autoresponse' value="Thank you for your email, we will reply as soon as possible." />
-                        <label htmlFor="name">{t ('contact_form_label_name')} <input type="text" name='name' value={name} onChange={(e) => setName(e.target.value)}/></label>
-                        <label htmlFor="email">{t ('contact_form_label_email')}<input type="text" name='email'  value={email} onChange={(e) => setEmail(e.target.value)} /></label>
-                        <label htmlFor="msg">{t ('contact_form_label_message')}  <textarea rows="4" cols="50" name='message'  value={message} onChange={(e) => setMessage(e.target.value)}></textarea></label>
+                        <label htmlFor="name">{t ('contact_form_label_name')} <input type="text" name='name' id='name' autoComplete="off" value={name} onChange={(e) => setName(e.target.value)}/></label>
+                        <label htmlFor="email">{t ('contact_form_label_email')}<input type="text" name='email' id='email' autoComplete="off"  value={email} onChange={(e) => setEmail(e.target.value)} /></label>
+                        <label htmlFor="msg">{t ('contact_form_label_message')}  <textarea rows="4" cols="50" name='message' id='msg'  value={message} onChange={(e) => setMessage(e.target.value)}></textarea></label>
 
                         <button type='submit'> {t ('contact_form_button')} <FaArrowRight/></button>
                         <span className="errorMsg">{errorMsg}</span>

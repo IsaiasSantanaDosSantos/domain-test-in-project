@@ -1,16 +1,16 @@
-import  styled  from "styled-components";
+import styled from "styled-components";
 
-import * as colors from '../../config/colors'
+import * as colors from "../../config/colors";
 
 export const ContactContent = styled.div`
-width: 100%;
-display: block;
-text-align: center;
-background-color: ${colors.secundaryColor};
-color: ${colors.primaryColor};
-padding: 95px 0;
+  width: 100%;
+  display: block;
+  text-align: center;
+  background-color: ${colors.secundaryColor};
+  color: ${colors.primaryColor};
+  padding: 95px 0;
 
-.contactConatiner{
+  .contactConatiner {
     max-width: 1100px;
     width: 90%;
     margin: 0 auto;
@@ -19,69 +19,73 @@ padding: 95px 0;
     align-items: start;
     column-gap: 30px;
     row-gap: 40px;
-}
-.contactTextBox, .contactFormBox {
+  }
+  .contactTextBox,
+  .contactFormBox {
     width: 47%;
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: start;
-}
-.contactTextTitle {
+  }
+  .contactTextTitle {
     font-size: 30px;
     font-weight: 600;
     margin-bottom: 20px;
-}
-.contactText {
+  }
+  .contactText {
     font-size: 16px;
     text-align: start;
     line-height: 30px;
-}
-.contactSubTitle {
+  }
+  .contactSubTitle {
     margin-top: 15px;
-}
-a {
+  }
+  a {
     color: ${colors.primaryColor};
     text-decoration: none;
-}
-a:hover {
+  }
+  a span {
+    display: none;
+  }
+  a:hover {
     text-decoration: underline;
-}
-.contactIconsBox {
+  }
+  .contactIconsBox {
     width: 100%;
     display: flex;
     justify-content: start;
     align-items: center;
     column-gap: 15px;
     margin-top: 20px;
-}
-.contactIcons {
+  }
+  .contactIcons {
     font-size: 30px;
     cursor: pointer;
     animation: zoomAnination ease 2.5s infinite;
-}
-.contactIcons:hover {
+  }
+  .contactIcons:hover {
     opacity: 0.8;
-}
-@keyframes zoomAnination {
+  }
+  @keyframes zoomAnination {
     0% {
-        transform: scale(1);
+      transform: scale(1);
     }
 
     50% {
-        transform: scale(1.1);
+      transform: scale(1.1);
     }
     100% {
-        transform: scale(1);
+      transform: scale(1);
     }
-}
-form {
+  }
+  form {
     width: 100%;
     display: block;
     text-align: start;
-}
+  }
 
-label {
+  label {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -89,23 +93,23 @@ label {
     align-items: start;
     margin-bottom: 20px;
     input[type="text"] {
-        width: 100%;
-        border: none;
-        outline: none;
-        border-bottom: 1px solid ${colors.darkGrayColor};
-        background-color: ${colors.secundaryColor};
-        height: 40px;
+      width: 100%;
+      border: none;
+      outline: none;
+      border-bottom: 1px solid ${colors.darkGrayColor};
+      background-color: ${colors.secundaryColor};
+      height: 40px;
     }
-}
- textarea {
+  }
+  textarea {
     width: 100%;
     border: none;
     outline: none;
     border-bottom: 1px solid ${colors.darkGrayColor};
     background-color: ${colors.secundaryColor};
     height: 60px;
-}
-button {
+  }
+  button {
     border: none;
     background-color: ${colors.primaryColor};
     color: ${colors.secundaryColor};
@@ -118,54 +122,57 @@ button {
     margin: 30px auto 10px 0px;
     cursor: pointer;
     transition: all 0.5s;
-}
-button:hover {
+  }
+  button:hover {
     background-color: ${colors.secundaryColor};
     color: ${colors.primaryColor};
     border: 1px solid ${colors.primaryColor};
-}
-button:active {
+  }
+  button:active {
     filter: brightness(75%);
-}
-.errorMsg {
+  }
+  .errorMsg {
     margin-top: 10px;
     font-size: 13px;
     font-weight: 600;
     color: ${colors.errorColor};
-}
-.fade-up {
+  }
+  .fade-up {
     transform: translateY(100px);
     opacity: 0;
     transition: transform 0.8s ease, opacity 0.8s ease;
-}
+  }
 
-.fade-up.animate {
+  .fade-up.animate {
     transform: translateY(0);
     opacity: 1;
-}
-@media (max-width: 768px){
-    .contactConatiner{
-        flex-direction: column;
+  }
+  @media (max-width: 768px) {
+    .contactConatiner {
+      flex-direction: column;
     }
-    .contactTextBox, .contactFormBox {
-    width: 100%;
+    .contactTextBox,
+    .contactFormBox {
+      width: 100%;
     }
-}
-@media (max-width: 576px){
+  }
+  @media (max-width: 576px) {
     form {
-    text-align: center;
-}
-    .contactTextBox, .contactFormBox, label {
-        align-items: center;
+      text-align: center;
+    }
+    .contactTextBox,
+    .contactFormBox,
+    label {
+      align-items: center;
     }
     .contactText {
-        text-align: center;
+      text-align: center;
     }
     .contactIconsBox {
-        justify-content: center;
+      justify-content: center;
     }
     button {
-        margin: 30px auto 5px;
+      margin: 30px auto 5px;
     }
-}
+  }
 `;

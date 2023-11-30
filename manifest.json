@@ -1,0 +1,51 @@
+{
+  "name": "Santana Web Dev",
+  "short_name": "Santana Web Dev",
+  "description": "Sou um desenvolvedor frontend apaixonado por criar experiências digitais incríveis. Neste portfólio, você encontrará uma seleção dos meus projetos recentes, nos quais transformei designs em experiências web interativas. Estou em busca de novas oportunidades empolgantes para colaborar em projetos desafiadores. Se você precisa de um desenvolvedor frontend habilidoso para transformar seu design em realidade, estou pronto para contribuir com minha experiência. Vamos trabalhar juntos para alcançar seus objetivos!",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "puplic/img/logo-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "puplic/img/logo-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "puplic/img/logo-144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "puplic/img/logo-96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "puplic/img/portfolio_project_image.jpg",
+      "type": "image/png",
+      "sizes": "1422x757",
+      "form_factor": "wide"
+    }
+  ],
+  "splash_pages": null,
+  "prefer_related_applications": false,
+  "related_applications": [],
+  "scope": "/",
+  "display_override": [""],
+  "orientation": "any",
+  "dir": "auto",
+  "lang": "pt-BR"
+}
