@@ -5,3 +5,11 @@ PARA HOSPEDAR UM PROJETO NO GITHUB PAGES SEGUIR OS SEGUINTES PASSOS:
     4. Rodar o script criado que é o "npm run deploy";
     5. Após receber a mensagem "Published", significa que foi publicado com sucesso;
     6. Ir para o repositório remoto no GitHub, acessar as configurações do repositório na sequencia: Settings> Pages>, ao acessar esta configuração, caso não tenha mostrado o link do projeto, basta aguardar ou recarregar a página.
+
+
+    #################################
+
+    ATENÇÃO, VEJA QUAL BRANCH ESTÁ ANTES DE FAZER AJUSTES!! 
+
+
+    #################################

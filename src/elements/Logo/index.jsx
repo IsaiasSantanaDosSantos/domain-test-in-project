@@ -1,7 +1,7 @@
 import { Link } from "react-scroll";
 
 import logoVideo from "../../assets/video/animateSantanaWebDeveloper.mp4";
-import logoImage from "../../assets/img/santana_logo.jpg";
+import logoImage from "../../assets/img/santana_logo.webp";
 import { LogoBox, ConatinerLogo } from "./styled";
 
 export const Logo = () => {

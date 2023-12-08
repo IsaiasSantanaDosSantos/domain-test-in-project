@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 import { useTranslation } from "react-i18next";
 
 import { InterestedContent } from "./styled";
-import backgraund from "../../../public/img/hire-me_image.jpg";
+import backgraund from "../../../public/img/hire-me_image.webp";
 
 export const Interested = () => {
   const { t } = useTranslation();

@@ -5,12 +5,12 @@ import { FaArrowDown } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
 
 import { Title, HeaderContainer } from "./styled";
-import backgraundImage from "../../assets/img/background-one.jpg";
-import backgraundImageOne from "../../assets/img/header-background_image.jpg";
-import backgraundImageTwo from "../../assets/img/background-two.jpg";
-import backgraundImageThree from "../../assets/img/background-three.jpg";
-import backgraundImageFour from "../../assets/img/background-four.jpg";
-import backgraundImageFive from "../../assets/img/background-five.jpg";
+import backgraundImage from "../../assets/img/background-one.webp";
+import backgraundImageOne from "../../assets/img/header-background_image.webp";
+import backgraundImageTwo from "../../assets/img/background-two.webp";
+import backgraundImageThree from "../../assets/img/background-three.webp";
+import backgraundImageFour from "../../assets/img/background-four.webp";
+import backgraundImageFive from "../../assets/img/background-five.webp";
 
 export const Home = () => {
   const [text, setText] = useState("");

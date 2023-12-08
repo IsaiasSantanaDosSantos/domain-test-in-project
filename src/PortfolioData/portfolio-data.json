@@ -1,35 +1,34 @@
 {
-    "Projects": [
-      {
-        "background": "img/portfolio_project_image.jpg",
-        "portfolio_link":"http:\/\/isaiassantana.com.br\/",
-        "github_project":"https:\/\/github.com\/IsaiasSantanaDosSantos\/domain-test-in-project"
-      },
-      {
-        "background": "img/API_Rest-imagem.jpg",
-        "portfolio_link":"https:\/\/github.com\/IsaiasSantanaDosSantos\/API_Rest-AWS",
-        "github_project":"https:\/\/github.com\/IsaiasSantanaDosSantos\/API_Rest-AWS"
-      },
-      {
-        "background": "img/API_consumer-image.jpg",
-        "portfolio_link":"https:\/\/consume-api-ivory.vercel.app\/",
-        "github_project":"https:\/\/github.com\/IsaiasSantanaDosSantos\/consume_API"
-      },
-      {
-        "background": "img/golPag-image.jpg",
-        "portfolio_link":"https:\/\/golpag.com.br\/",
-        "github_project":""
-      },
-      {
-        "background": "img/template-classic.jpg",
-        "portfolio_link":"https:\/\/template.drmeducacao.com.br\/",
-        "github_project":""
-      },
-      {
-        "background": "img/template-ocean.jpg",
-        "portfolio_link":"https:\/\/minhaies.drmeducacao.com.br\/",
-        "github_project":""
-      }
-
-    ]
-  }
+  "Projects": [
+    {
+      "background": "img/portfolio_project_image.webp",
+      "portfolio_link": "http://isaiassantana.com.br/",
+      "github_project": "https://github.com/IsaiasSantanaDosSantos/domain-test-in-project"
+    },
+    {
+      "background": "img/API_Rest-imagem.webp",
+      "portfolio_link": "https://github.com/IsaiasSantanaDosSantos/API_Rest-AWS",
+      "github_project": "https://github.com/IsaiasSantanaDosSantos/API_Rest-AWS"
+    },
+    {
+      "background": "img/API_consumer-image.webp",
+      "portfolio_link": "https://consume-api-ivory.vercel.app/",
+      "github_project": "https://github.com/IsaiasSantanaDosSantos/consume_API"
+    },
+    {
+      "background": "img/golPag-image.webp",
+      "portfolio_link": "https://golpag.com.br/",
+      "github_project": ""
+    },
+    {
+      "background": "img/template-classic.webp",
+      "portfolio_link": "https://template.drmeducacao.com.br/",
+      "github_project": ""
+    },
+    {
+      "background": "img/template-ocean.webp",
+      "portfolio_link": "https://minhaies.drmeducacao.com.br/",
+      "github_project": ""
+    }
+  ]
+}
