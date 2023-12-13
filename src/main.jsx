@@ -3,8 +3,7 @@ import ReactDOM from "react-dom/client";
 import i18n from "i18next";
 import { initReactI18next, I18nextProvider } from "react-i18next";
 import ReactGA from "react-ga";
-import * as serviceWorkerRegistration from "./serviceWorkerRegistration";
-// import * as serviceWorkerRegistration from "../serviceWorkerRegistration";
+import * as serviceWorkerRegistration from "./serviceWorkerRegistration.js";
 
 import enTranslations from "../translateFile/en/translation.json";
 import ptTranslations from "../translateFile/pt/translation.json";
