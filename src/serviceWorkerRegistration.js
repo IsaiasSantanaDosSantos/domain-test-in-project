@@ -28,7 +28,7 @@ export function register(config) {
     // O construtor de URL está disponível em todos os navegadores que suportam SW.
     const baseUrl = process.env.PUBLIC_URL || "/";
     console.log("Achou?");
-    const swUrl = `https://isaiassantana.com.br/src/service-worker.js`;
+    const swUrl = `https://isaiassantana.com.br/service-worker.js`;
 
     window.addEventListener("load", () => {
       if (isLocalhost) {
