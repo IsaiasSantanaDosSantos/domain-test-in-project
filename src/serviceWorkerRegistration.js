@@ -1,5 +1,5 @@
 // Este código opcional é usado para registrar um service worker.
-//register() não é chamado por padrão.
+// register() não é chamado por padrão.
 
 // Isso permite que o aplicativo carregue mais rápido nas visitas subsequentes em produção e fornece
 // possui recursos off-line. No entanto, isso também significa que os desenvolvedores (e usuários)
@@ -19,37 +19,23 @@ const isLocalhost = Boolean(
     window.location.hostname !== "isaiassantana.com.br",
 );
 
-// const isLocalhost = Boolean(
-//   window.location.hostname === "localhost" ||
-//     // [::1] is the IPv6 localhost address.
-//     window.location.hostname === "[::1]" ||
-//     // 127.0.0.0/8 are considered localhost for IPv4.
-//     window.location.hostname.match(
-//       /^127(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/,
-//     ),
-// );
-
 export function register(config) {
-  if (process.env.NODE_ENV === "production" && "serviceWorker" in navigator) {
+  if (
+    (process.env.NODE_ENV === "production" ||
+      process.env.NODE_ENV === "gh-pages") &&
+    "serviceWorker" in navigator
+  ) {
     // O construtor de URL está disponível em todos os navegadores que suportam SW.
-    const publicUrl = new URL(process.env.PUBLIC_URL, window.location.href);
-    if (publicUrl.origin !== window.location.origin) {
-      // Nosso service worker não funcionará se PUBLIC_URL estiver em uma origem diferente
-      // a partir do qual nossa página é veiculada. Isso pode acontecer se um CDN for usado para
-      // servir ativos; consulte https://github.com/facebook/create-react-app/issues/2374
-      return;
-    }
+    const baseUrl = process.env.PUBLIC_URL || "/";
+    const swUrl = `${baseUrl}service-worker.js`;
 
     window.addEventListener("load", () => {
-      // const swUrl = `${process.env.PUBLIC_URL}/service-worker.js`;
-      const swUrl = `src/service-worker.js`;
-
       if (isLocalhost) {
         // Isso está sendo executado em localhost. Vamos verificar se um service worker ainda existe ou não.
         checkValidServiceWorker(swUrl, config);
 
         // Adicione algum registro adicional ao localhost, apontando os desenvolvedores para o
-        //documentação do trabalhador de serviço/PWA.
+        // documentação do trabalhador de serviço/PWA.
         navigator.serviceWorker.ready.then(() => {
           console.log(
             "This web app is being served cache-first by a service " +
@@ -57,7 +43,7 @@ export function register(config) {
           );
         });
       } else {
-        //Não é localhost. Basta registrar o trabalhador de serviço
+        // Não é localhost. Basta registrar o trabalhador de serviço.
         registerValidSW(swUrl, config);
       }
     });
@@ -127,7 +113,7 @@ function checkValidServiceWorker(swUrl, config) {
           });
         });
       } else {
-        //Trabalhador de serviço encontrado. Proceda normalmente.
+        // Trabalhador de serviço encontrado. Proceda normalmente.
         registerValidSW(swUrl, config);
       }
     })
