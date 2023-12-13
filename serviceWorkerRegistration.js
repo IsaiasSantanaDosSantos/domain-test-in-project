@@ -27,8 +27,8 @@ export function register(config) {
   ) {
     // O construtor de URL está disponível em todos os navegadores que suportam SW.
     const baseUrl = process.env.PUBLIC_URL || "/";
-    console.log("Caminho:", `${baseUrl}/service-worker.js`);
-    const swUrl = `/service-worker.js`;
+    console.log("Caminho:", `${baseUrl}src/service-worker.js`);
+    const swUrl = `${baseUrl}src/service-worker.js`;
 
     window.addEventListener("load", () => {
       if (isLocalhost) {
