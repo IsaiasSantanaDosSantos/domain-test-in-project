@@ -8,66 +8,66 @@
   "theme_color": "#000",
   "icons": [
     {
-      "src": "./img/logo-512.png",
+      "src": "img/logo-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "./img/logo-192.webp",
+      "src": "img/logo-192.webp",
       "sizes": "192x192",
       "type": "image/webp",
       "purpose": "any maskable"
     },
     {
-      "src": "./img/logo-144.webp",
+      "src": "img/logo-144.webp",
       "sizes": "144x144",
       "type": "image/webp"
     },
     {
-      "src": "./img/logo-96.webp",
+      "src": "img/logo-96.webp",
       "sizes": "96x96",
       "type": "image/webp"
     }
   ],
   "screenshots": [
     {
-      "src": "./img/capture/home-1420x857.webp",
+      "src": "img/capture/home-1420x857.webp",
       "type": "image/webp",
       "sizes": "1420x857",
       "form_factor": "wide",
       "device_type": "desktop"
     },
     {
-      "src": "./img/capture/about-1420x857.webp",
+      "src": "img/capture/about-1420x857.webp",
       "type": "image/webp",
       "sizes": "1420x857",
       "form_factor": "wide",
       "device_type": "desktop"
     },
     {
-      "src": "./img/capture/references-1420x857.webp",
+      "src": "img/capture/references-1420x857.webp",
       "type": "image/webp",
       "sizes": "1420x857",
       "form_factor": "wide",
       "device_type": "desktop"
     },
     {
-      "src": "./img/capture/home-535x780.webp",
+      "src": "img/capture/home-535x780.webp",
       "type": "image/webp",
       "sizes": "535x780",
       "form_factor": "narrow",
       "device_type": "mobile"
     },
     {
-      "src": "./img/capture/references-535x780.webp",
+      "src": "img/capture/references-535x780.webp",
       "type": "image/webp",
       "sizes": "535x780",
       "form_factor": "narrow",
       "device_type": "mobile"
     },
     {
-      "src": "./img/capture/contact-535x780.webp",
+      "src": "img/capture/contact-535x780.webp",
       "type": "image/webp",
       "sizes": "535x780",
       "form_factor": "narrow",
