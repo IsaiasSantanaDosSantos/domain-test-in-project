@@ -98,7 +98,8 @@
     {
       "src": "/icons/windows11/Square150x150Logo.scale-200.png",
       "type": "image/png",
-      "sizes": "300x300"
+      "sizes": "300x300",
+      "purpose": "any maskable"
     },
     {
       "src": "/icons/windows11/Square150x150Logo.scale-400.png",
