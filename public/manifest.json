@@ -1,6 +1,6 @@
 {
   "background_color": "#f5df4e",
-  "description": "Bem-vindo ao meu universo digital! Sou um desenvolvedor front-end apaixonado por transformar designs em experiências cativantes. Explore meu portfólio para ver como converto desafios em soluções inovadoras. Estou pronto para novas colaborações e desafios emocionantes. Vamos criar algo extraordinário juntos!",
+  "description": "Sou um desenvolvedor front-end apaixonado por transformar designs em experiências cativantes. No meu portfólio, veja como converto desafios em soluções inovadoras. Pronto para novas colaborações e desafios emocionantes. Vamos criar algo extraordinário!",
   "dir": "ltr",
   "display": "standalone",
   "name": "Santana Web Developer",
@@ -620,7 +620,10 @@
     {
       "name": "Home",
       "url": "https://isaiassantana.com.br/#home",
-      "description": "Home"
+      "description": "Home",
+      "src": "/public/img/windows11/Square44x44Logo.targetsize-96.png",
+      "type": "image/png",
+      "sizes": "96x96"
     }
   ],
   "id": "SantanaWebDev",
