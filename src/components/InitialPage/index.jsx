@@ -7,24 +7,40 @@ export const InicialPage = () => {
     const videoElement = document.createElement("video");
     return Boolean(videoElement.canPlayType);
   };
+  function createLoadingAnimation() {
+    const logoBox = document.querySelector(".logoBox");
+    if (logoBox) {
+      const p = document.createElement("p");
+      p.classList.add("loadindTex");
+      p.innerHTML = "Loading<span></span><span></span><span></span>";
+      logoBox.appendChild(p);
+      time();
+    } else {
+      setTimeout(createLoadingAnimation, 2300);
+    }
+  }
 
+  const time = () => {
+    setTimeout(() => {
+      const p = document.querySelector(".loadindTex");
+      if (p) {
+        p.remove();
+      }
+    }, 1650);
+  };
+
+  createLoadingAnimation();
   return (
     <InitialPageContainer>
       <div className="interBox">
         <div className="logoBox">
           {isVideoSupported() ? (
-            <video autoPlay loop muted>
+            <video autoPlay loop muted loading="lazy">
               <source src={logoVideo} type="video/mp4" />
-              Your browser does not support video in HTML 5
             </video>
           ) : (
-            <img src={logoImage} alt="Santana's logo" />
+            <img src={logoImage} alt="Santana's logo" loading="lazy" />
           )}
-          <p className="loadindTex">
-            Loading<span></span>
-            <span></span>
-            <span></span>
-          </p>
         </div>
       </div>
     </InitialPageContainer>

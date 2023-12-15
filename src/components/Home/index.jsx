@@ -90,6 +90,7 @@ export const Home = () => {
             isTransitioning ? "image-transition" : ""
           }`}
           style={{ backgroundImage: `url(${backgroundImage})` }}
+          loading="lazy"
         />
         <div className="homeMark"></div>
         <div className="homeContent">

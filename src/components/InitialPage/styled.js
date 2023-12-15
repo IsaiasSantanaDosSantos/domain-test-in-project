@@ -32,6 +32,7 @@ background-color: ${colors.whiteColor};
         justify-content: center;
         align-items: end;
     }
+
     .logoBox {
         background: transparent;
         height: 160px;
@@ -99,6 +100,7 @@ background-color: ${colors.whiteColor};
             opacity: 1;
         }
     }
+    
     @keyframes moveUpDown {
         0% {
             transform: translateY(0);

@@ -24,7 +24,7 @@ export const Logo = () => {
       >
         <LogoBox>
           {isVideoSupported() ? (
-            <video autoPlay loop muted>
+            <video autoPlay loop muted loading="lazy">
               <source
                 src={logoVideo}
                 type="video/mp4"
@@ -39,6 +39,7 @@ export const Logo = () => {
               alt="Santana's logo"
               width={150}
               height={150}
+              loading="lazy"
             />
           )}
         </LogoBox>
